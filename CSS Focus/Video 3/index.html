@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS-Focus</title>
+    <style>
+
+       /* Element Selector */
+        div{
+            background-color: rgb(249, 253, 4);
+        }
+
+        /* Class Selector */
+        .red{
+            background-color: rgb(253, 4, 4);
+        }
+        
+        /*Class Selector*/
+        .green{
+            background-color: rgb(4, 253, 70);
+        }
+
+         /*ID Selector*/
+        #blue{
+            background-color: blue;
+        }
+
+        /*Child Selector*/
+         div > p {
+        color: aqua;
+        background-color: rgb(58, 0, 0);
+         }
+
+         /*Descendant Selector*/
+         div p {
+            background-color: blue;
+         }
+    </style>
+
+</head>
+<body>
+
+   <div class="red">
+     I am Red.
+   </div> 
+
+   <div class="green"> 
+     I am green.
+   </div>
+
+   <div id="blue">
+    I am usual blue, not supposed to be blue
+   </div>
+
+   <div>
+    Normal div
+   </div>
+
+   <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde impedit ut fugiat? Sed, optio? Pariatur recusandae culpa ipsam quibusdam sunt laborum? Officia nam iusto neque dolore.</p>
+   </div>
+  
+   <div>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At consequuntur vero veritatis sed impedit placeat fugit voluptate esse consectetur iste nemo iusto enim eaque eveniet sequi explicabo culpa, recusandae accusantium corporis facilis? Totam expedita asperiores quibusdam delectus dicta sit possimus aut, nostrum ex nihil nobis!
+    
+   </div>
+
+
+</body>
+</html>
