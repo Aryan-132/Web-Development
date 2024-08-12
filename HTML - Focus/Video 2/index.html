@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Let's Learn it..!</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</head>
+
+<body>
+
+    <h1>Form to apply for TA</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter Your Username<label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+
+        <div>
+            <form>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </form>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+        </div>
+        <div>
+            <input type="checkbox" id="Are you a human?" name="human?" value="yes">
+            <label for="Are you a human?">Are you a human?</label>
+        </div>
+        <div>
+            <label for="comment">Enter Your Suggestions below.....</label>
+            <textarea name="comment" rows="5" cols="40">
+            </textarea>
+        </div>
+        <div>
+            <select name="Fruits">
+                <option value="apple">Apple</option>
+                <option value="orange">Orange</option>
+                <option value="banana">Banana</option>
+                <option value="mango">Mango</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
